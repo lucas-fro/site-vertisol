@@ -3,7 +3,6 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: white;
 }
 
 body{
@@ -254,6 +253,8 @@ transition: 0.3s;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     position: relative;
     margin: 20px 10px;
+    background-color: white;
+    color: black;
 }
 
 .img-perfil{
@@ -288,6 +289,32 @@ transition: 0.3s;
 .card-depoimentos>h5{
     font-size: 1.5em;
 }
+
+footer{
+    width: 100%;
+    background-color: #000066;
+    padding: 30px;
+    box-sizing: border-box;
+
+}
+
+footer>section{
+    background-color: green;
+}
+
+.seja-um-reved{
+    margin-bottom: 5px;
+}
+
+.informaçoes>p{
+    text-align: center;
+    color: white;
+}
+
+.informaçoes>p>a{
+    color: white;
+}
+
   
 @media screen and (max-width: 1090px) {
     
