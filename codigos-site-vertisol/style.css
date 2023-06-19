@@ -213,7 +213,7 @@ transition: 0.3s;
   
 .nossos-trabalhos>div>img{
     width: 100%;
-    border-radius: 5px;
+    border-radius: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
@@ -341,6 +341,7 @@ transition: 0.3s;
     text-align: justify;
     text-indent: 1.5rem;
     line-height: 2rem;
+    max-width: 1000px;
 }
 
 .sec-sobre-nos {  
@@ -536,6 +537,10 @@ footer{
 }
 
 @media screen and (max-width: 700px) {
+    
+    .nossos-trabalhos>div>img{
+        border-radius: 10px;
+    }
     
     .aspas-baixo{
         width: 40px;
