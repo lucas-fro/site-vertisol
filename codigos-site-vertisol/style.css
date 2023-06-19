@@ -387,24 +387,19 @@ footer{
     color: white;
 }
 
-.btn-zap{
-    position: fixed;
-    bottom: 50px;
-    right: 30px;
-    background-color: #25D366;
-    border-radius: 50%;
-    width: 55px;
-    height: 55px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 5px solid white;
+.rwb-tooltip{
+    background-color: white;
 }
 
-.bi-whatsapp{
-    color: white;
-    font-size: 35px;
+.btn-zap{
+    opacity: .5;
 }
+
+.btn-zap:hover{
+    opacity: 1;
+}
+
+
   
 @media screen and (max-width: 1090px) {
     
