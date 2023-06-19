@@ -16,6 +16,7 @@ main{
 
 header{
  position: fixed;
+ top:0;
  z-index: 3;
  width: 100%;
  
@@ -364,6 +365,24 @@ footer{
     color: white;
 }
 
+.btn-zap{
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    background-color: #25D366;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid white;
+}
+
+.bi-whatsapp{
+    color: white;
+    font-size: 45px;
+}
   
 @media screen and (max-width: 1090px) {
     
