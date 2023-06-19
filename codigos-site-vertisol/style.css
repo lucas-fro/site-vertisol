@@ -311,9 +311,23 @@ transition: 0.3s;
 }
 
 .sec-sobre-nos>img{
-    height: 450px;
+    max-width: 90%;
     margin: auto;
     border-radius: 20px;
+}
+
+.sec-sobre-nos>div>h3{
+    color: #000066;
+    font-size: 2rem;
+    align-items: center;
+}
+
+.sec-sobre-nos>div>hr{
+    text-align: center;
+    width: 200px;
+    margin: auto;
+    border: 2px solid yellow ;
+    margin: 20px;
 }
 
 .texs-pag-sobre-nos{
@@ -333,13 +347,13 @@ transition: 0.3s;
     padding: 40px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr auto;
-    gap: 200px 5px;
+    grid-template-rows: repeat(3, auto);
+    gap: 100px 10px;
     grid-auto-flow: row;
     grid-template-areas:
       "texts-missao imgs-missao"
       "imgs-valores texts-valores"
-      "texts-hist-empresa imgs-hist-empresa";
+      "texts-hist-empresa texts-hist-empresa";
   }
   
   .texts-missao { grid-area: texts-missao; }
@@ -352,7 +366,8 @@ transition: 0.3s;
   
   .texts-hist-empresa { grid-area: texts-hist-empresa; }
   
-  .imgs-hist-empresa { grid-area: imgs-hist-empresa; }
+  
+  
   
 
 /*pagina sobre nós-fim*/
@@ -389,7 +404,8 @@ footer{
     flex-direction: column;
     width: fit-content;
     position: static;
-    width: 340px;
+    width: 100%;
+    max-width: 340px;
     margin: auto;
 }
 
@@ -515,27 +531,36 @@ footer{
 }
 
 @media screen and (max-width: 700px) {
-
-    .nossos-trabalhos{  
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(6, auto);
-        gap: 10px 0px;
-        grid-template-areas:
-        "img1" 
-        "img2" 
-        "img3" 
-        "img4" 
-        "img5" 
-        "img6";
-    }
     
     .aspas-baixo{
-        display: none;
+        width: 40px;
+        top: 30px;
+        left: 20px;
     }
+    
     .aspas-cima{
-        display: none;
+        width: 40px;
+        bottom: 30px;
+        right: 20px;
     }
 
+    .sec-sobre-nos {  
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, auto);
+        gap: 50px 0px;
+        grid-template-areas:
+          "texts-missao" 
+          "imgs-missao"
+          "texts-valores"
+          "imgs-valores"
+          "texts-hist-empresa";
+      }
+
+    .sec-sobre-nos>img{
+        max-width: 100%;
+        margin: auto;
+        border-radius: 20px;
+    }
 }
 
 @keyframes navLinkFade {
