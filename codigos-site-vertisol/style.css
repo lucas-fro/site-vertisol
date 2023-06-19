@@ -469,24 +469,6 @@ footer{
         display: none;
     }
 
-    .btn-zap{
-        position: fixed;
-        bottom: 50px;
-        right: 30px;
-        background-color: #25D366;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: 5px solid white;
-    }
-    
-    .bi-whatsapp{
-        color: white;
-        font-size: 30px;
-    }
 }
 
 @keyframes navLinkFade {
