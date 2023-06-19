@@ -311,7 +311,7 @@ transition: 0.3s;
 }
 
 .sec-sobre-nos>img{
-    max-width: 90%;
+    max-width: 70%;
     margin: auto;
     border-radius: 20px;
 }
@@ -340,7 +340,7 @@ transition: 0.3s;
 .texs-pag-sobre-nos>p{
     text-align: justify;
     text-indent: 1.5rem;
-    line-height: 1.5rem;
+    line-height: 2rem;
 }
 
 .sec-sobre-nos {  
@@ -527,6 +527,11 @@ footer{
         "img5 img6";
     }
 
+    .sec-sobre-nos>img{
+        max-width: 100%;
+        margin: auto;
+        border-radius: 20px;
+    }
       
 }
 
@@ -556,10 +561,8 @@ footer{
           "texts-hist-empresa";
       }
 
-    .sec-sobre-nos>img{
-        max-width: 100%;
-        margin: auto;
-        border-radius: 20px;
+      .texs-pag-sobre-nos>p{
+        line-height: 1.5rem;
     }
 }
 
