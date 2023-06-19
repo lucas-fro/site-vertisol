@@ -145,7 +145,7 @@ transition: 0.3s;
 .quem-nos-somos>h1{
     text-align: center;
     color: #000066;
-    font-size: 2em;
+    font-size: 2rem;
     margin-bottom: 20px;
 }
 
@@ -173,7 +173,7 @@ transition: 0.3s;
 .seção-nossos-trabalhos>h1{
     text-align: center;
     color: yellow;
-    font-size: 2em;
+    font-size: 2rem;
     margin-bottom: 20px;
 }
 
@@ -221,7 +221,7 @@ transition: 0.3s;
 .depoimentos-clientes>h1{
     text-align: center;
     color: #000066;
-    font-size: 2em;
+    font-size: 2rem;
     margin-bottom: 20px;
 }
 
@@ -298,12 +298,61 @@ footer{
 
 }
 
-footer>section{
-    background-color: green;
+.seja-um-reved{
+    margin-bottom: 50px;
 }
 
-.seja-um-reved{
-    margin-bottom: 5px;
+.seja-um-reved>h3{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.seja-um-reved>hr{
+    width: 200px;
+    margin: auto;
+    border: 2px solid white;
+    margin-bottom: 20px;
+}
+
+.coolinput {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    position: static;
+    width: 340px;
+    margin: auto;
+}
+
+.coolinput label.text {
+    font-size: 0.75rem;
+    color: white;
+    font-weight: 700;
+    position: relative;
+    top: 0.5rem;
+    margin: 0 0 0 7px;
+    padding: 0 3px;
+    background-color: #000066;
+    width: fit-content;
+}
+
+.coolinput input[type=text].input {
+    padding: 11px 10px;
+    font-size: 0.75rem;
+    border: 2px white solid;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+}
+
+.coolinput input[type=text].input:focus {
+    outline: none;
+}
+
+.input-reved::placeholder{
+    color: white;
 }
 
 .informaçoes>p{
