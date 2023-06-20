@@ -425,6 +425,11 @@ transition: 0.3s;
     flex-wrap: wrap;
 }
 
+.aside-cards-contatos>a{
+    color: var(--cor-preto);
+    text-decoration: none;
+}
+
 .cards-contatos{
     background-color: var(--cor-branco);
     height: 230px;
