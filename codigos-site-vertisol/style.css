@@ -381,6 +381,7 @@ transition: 0.3s;
     font-size: 1.09rem;
     resize: vertical;
     min-height: 100px;
+    outline: none;
     
 }
 
