@@ -422,7 +422,7 @@ footer{
     width: fit-content;
 }
 
-.coolinput input[type=text].input {
+.coolinput input.input {
     padding: 11px 10px;
     font-size: 0.75rem;
     border: 2px white solid;
@@ -431,7 +431,7 @@ footer{
     color: white;
 }
 
-.coolinput input[type=text].input:focus {
+.coolinput input.input:focus {
     outline: none;
 }
 
