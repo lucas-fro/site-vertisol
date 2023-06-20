@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+:root{
+    --cor-ptincipal: #000066;
+    --cor-subcor: #000082;
+    --cor-secundaria: #ffff00;
+    --cor-branco: #ffffff;
+    --cor-preto: #000000;
+
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -24,7 +33,7 @@ header{
 }
 
 .nav-list>li>a {
-color: #fff;
+color: var(--cor-branco);
 text-decoration: none;
 transition: 0.3s;
 padding: 15px;
@@ -44,7 +53,7 @@ nav {
 display: flex;
 justify-content: space-around;
 align-items: center;
-background: #000066;
+background: var(--cor-ptincipal);
 height: 60px;
 }
 
@@ -67,7 +76,7 @@ cursor: pointer;
 .mobile-menu div {
 width: 32px;
 height: 2px;
-background: #fff;
+background: var(--cor-branco);
 margin: 8px;
 transition: 0.3s;
 }
@@ -102,7 +111,7 @@ transition: 0.3s;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff;
+    color: var(--cor-branco);
     font-size: 36px; /* Altere o valor para ajustar o tamanho dos títulos */
     font-weight: 400;
     text-align: center;
@@ -127,7 +136,7 @@ transition: 0.3s;
     transform: translateY(-50%);
     background: transparent;
     border: none;
-    color: #fff;
+    color: var(--cor-branco);
     font-size: 24px;
     cursor: pointer;
     z-index: 2;
@@ -148,7 +157,7 @@ transition: 0.3s;
 
 .quem-nos-somos>h1{
     text-align: center;
-    color: #000066;
+    color: var(--cor-ptincipal);
     font-size: 2rem;
     margin-bottom: 20px;
 }
@@ -157,7 +166,7 @@ transition: 0.3s;
     text-align: center;
     width: 200px;
     margin: auto;
-    border: 2px solid yellow ;
+    border: 2px solid var(--cor-secundaria) ;
     margin-bottom: 20px;
 }
 
@@ -170,13 +179,13 @@ transition: 0.3s;
 }
 
 .seção-nossos-trabalhos{
-    background-image: linear-gradient(45deg ,#0000c9 ,#000066);
+    background-image: linear-gradient(45deg ,var(--cor-subcor) ,var(--cor-ptincipal));
     padding: 40px;
 }
 
 .seção-nossos-trabalhos>h1{
     text-align: center;
-    color: yellow;
+    color: var(--cor-secundaria);
     font-size: 2rem;
     margin-bottom: 20px;
 }
@@ -184,7 +193,7 @@ transition: 0.3s;
 .seção-nossos-trabalhos>hr{
     width: 200px;
     margin: auto;
-    border: 2px solid white;
+    border: 2px solid var(--cor-branco);
     margin-bottom: 20px;
 }
 
@@ -224,7 +233,7 @@ transition: 0.3s;
 
 .depoimentos-clientes>h1{
     text-align: center;
-    color: #000066;
+    color: var(--cor-ptincipal);
     font-size: 2rem;
     margin-bottom: 20px;
 }
@@ -233,7 +242,7 @@ transition: 0.3s;
     text-align: center;
     width: 200px;
     margin: auto;
-    border: 2px solid yellow ;
+    border: 2px solid var(--cor-secundaria) ;
     margin-bottom: 20px;
 }
 
@@ -257,8 +266,8 @@ transition: 0.3s;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     position: relative;
     margin: 20px 10px;
-    background-color: white;
-    color: black;
+    background-color: var(--cor-branco);
+    color: var(--cor-preto);
 }
 
 .img-perfil{
@@ -299,7 +308,7 @@ transition: 0.3s;
 /*pagina sobre nós-inicio*/
 
 .cabecalho-sobre-nos{
-    background-color: #000082;
+    background-color: var(--cor-subcor);
     width: 100%;
     height: 100px;
     padding-top: 100px;
@@ -308,7 +317,7 @@ transition: 0.3s;
 .cabecalho-sobre-nos>h2{
     font-size: 2rem;
     text-align: center;
-    color: yellow;
+    color: var(--cor-secundaria);
 }
 
 .sec-sobre-nos>img{
@@ -318,7 +327,7 @@ transition: 0.3s;
 }
 
 .sec-sobre-nos>div>h3{
-    color: #000066;
+    color: var(--cor-ptincipal);
     font-size: 2rem;
     align-items: center;
 }
@@ -327,7 +336,7 @@ transition: 0.3s;
     text-align: center;
     width: 200px;
     margin: auto;
-    border: 2px solid yellow ;
+    border: 2px solid var(--cor-secundaria);
     margin: 20px;
 }
 
@@ -376,7 +385,7 @@ transition: 0.3s;
 
 footer{
     width: 100%;
-    background-color: #000066;
+    background-color: var(--cor-ptincipal);
     padding: 30px;
     box-sizing: border-box;
 
@@ -388,7 +397,7 @@ footer{
 
 .seja-um-reved>h3{
     text-align: center;
-    color: white;
+    color: var(--cor-branco);
     font-size: 1.5rem;
     margin-bottom: 10px;
     font-weight: 500;
@@ -397,7 +406,7 @@ footer{
 .seja-um-reved>hr{
     width: 200px;
     margin: auto;
-    border: 2px solid white;
+    border: 2px solid var(--cor-branco);
     margin-bottom: 20px;
 }
 
@@ -413,23 +422,23 @@ footer{
 
 .coolinput label.text {
     font-size: 0.75rem;
-    color: white;
+    color: var(--cor-branco);
     font-weight: 700;
     position: relative;
     top: 0.5rem;
     margin: 0 0 0 7px;
     padding: 0 3px;
-    background-color: #000066;
+    background-color: var(--cor-ptincipal);
     width: fit-content;
 }
 
 .coolinput input.input {
     padding: 11px 10px;
     font-size: 0.75rem;
-    border: 2px white solid;
+    border: 2px solid var(--cor-branco);
     border-radius: 5px;
     background: transparent;
-    color: white;
+    color: var(--cor-branco);
 }
 
 .coolinput input.input:focus {
@@ -437,7 +446,7 @@ footer{
 }
 
 .input-reved::placeholder{
-    color: white;
+    color: var(--cor-branco);
 }
 
 .btn-forms-reved{
@@ -446,7 +455,7 @@ footer{
     border: transparent;
     box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
     background: dodgerblue;
-    color: white;
+    color: var(--cor-branco);
     border-radius: 4px;
     margin: auto;
     display: block;
@@ -464,11 +473,11 @@ footer{
 
 .informaçoes>p{
     text-align: center;
-    color: white;
+    color: var(--cor-branco);
 }
 
 .informaçoes>p>a{
-    color: white;
+    color: var(--cor-branco);
     text-decoration: none;
 }
 
@@ -477,7 +486,7 @@ footer{
 }
 
 .rwb-tooltip{
-    background-color: white;
+    background-color: var(--cor-branco);
 }
 
 .btn-zap{
