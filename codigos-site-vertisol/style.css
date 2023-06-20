@@ -19,7 +19,7 @@
 
 body{
     font-family: 'Rubik', sans-serif;
-    background-color: #ededed;
+    background-color: #f0f0f0;
 }
 
 main{
@@ -679,6 +679,18 @@ footer{
 
       .texs-pag-sobre-nos>p{
         line-height: 1.5rem;
+    }
+
+    .cards-contatos{
+        
+        height: auto;
+        width: 280px;
+        
+    }
+    
+    .bi-envelope-at, .bi-telephone, .bi-geo-alt{
+        font-size: 2.5rem;
+        margin: 20px 0px 20px;
     }
 }
 
