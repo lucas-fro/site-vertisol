@@ -567,6 +567,7 @@ transition: 0.3s;
     box-shadow: var(--box-shadow2);
     background-color: #ffffffbf;
     backdrop-filter: blur( 5px );
+    margin: 0px 10px;
 }
 
 .card-cntt-reved>h3{
