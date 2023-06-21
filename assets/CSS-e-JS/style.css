@@ -57,7 +57,7 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 background: var(--cor-ptincipal);
-height: 60px;
+height: 10vh;
 }
 
 .nav-list {
@@ -372,7 +372,7 @@ transition: 0.3s;
     font-size: 1.02rem;
 }
 
-.input-textares-form-contato{
+.input-textarea-form-contato{
     padding: 10px;
     font-size: 0.75rem;
     border: 2px solid var(--cor-preto);
@@ -385,13 +385,13 @@ transition: 0.3s;
     
 }
 
-.input-textares-form-contato::placeholder{
+.input-textarea-form-contato::placeholder{
     color: rgb(41, 41, 41);
     font-size: 1.02rem;
 }
 
 @media screen and (max-width: 1381px) {
-    .input-textares-form-contato{
+    .input-textarea-form-contato{
         min-height: 280px;
     }
 }
@@ -536,11 +536,109 @@ transition: 0.3s;
 
 /*pagina sobre nós-fim*/
 
+/*pagina contato para revenda-inicio*/
+
+#main-bg-cntt-reved{
+    background-color: #dddddd;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0px 0px 0px;
+}
+
+.card-cntt-reved{
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+    max-height: 500px;
+    background-color: var(--cor-branco);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.form-contato-revenda{
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    height: 300px;
+    justify-content: space-between;
+}
+
+.divs-contato-revenda{
+    width: 100%;
+    max-width: 395px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px 5px;
+}
+
+.coolinput-cntt-reved{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.text-cntt-reved {
+    font-size: 0.75rem;
+    color: var(--cor-preto);
+    font-weight: 700;
+    position: relative;
+    top: 0.5rem;
+    margin: 0 0 0 7px;
+    padding: 0 3px;
+    background: #dddddd;
+    width: fit-content;
+}
+
+.input-form-cntt-reved {
+    padding: 10px;
+    font-size: 0.75rem;
+    border: 2px solid var(--cor-preto);
+    border-radius: 5px;
+    background: transparent;
+    font-size: 1.09rem;
+    outline: none;
+}
+
+.input-form-cntt-reved::placeholder{
+    color: rgb(41, 41, 41);
+    font-size: 1.02rem;
+}
+
+.input-textarea-form-cntt-reved{
+    padding: 10px;
+    font-size: 0.75rem;
+    border: 2px solid var(--cor-preto);
+    border-radius: 5px;
+    background: transparent;
+    font-size: 1.09rem;
+    resize: vertical;
+    min-height: 20.80px;
+    max-height: 20.80px;
+    outline: none;
+    
+}
+
+.input-textarea-form-cntt-reved::placeholder{
+    color: rgb(41, 41, 41);
+    font-size: 1.02rem;
+}
+/*pagina contato para revenda-fim*/
+
+
 footer{
     width: 100%;
     background-color: var(--cor-ptincipal);
-    padding: 30px;
+    padding: 10px;
     box-sizing: border-box;
+    height: 10vh;
 
 }
 
@@ -643,7 +741,7 @@ footer{
         justify-content: center;
       }
 
-      .input-textares-form-contato{
+      .input-textarea-form-contato{
         min-height: 100px;
     }
 }
@@ -692,7 +790,9 @@ footer{
         font-size: 2.5rem;
         margin: 0px 0px 20px;
     }
-}
+
+    
+}   
 
 @keyframes navLinkFade {
     from {
