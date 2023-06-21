@@ -847,7 +847,7 @@ footer{
     }
 
     #main-bg-cntt-reved{
-        height: 110vh;
+        height: fit-content;
     }
 
     .card-cntt-reved {    
