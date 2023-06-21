@@ -1,4 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
+    
+    /*slides*/  
+
     const slides = document.querySelectorAll(".slide");
     const prevBtn = document.querySelector(".prev");
     const nextBtn = document.querySelector(".next");
@@ -54,6 +57,8 @@ document.addEventListener("DOMContentLoaded", function() {
     showSlide(currentIndex);
     startTimer();
 
+    /*navbar-mobilemenu */
+
     class MobileNavbar {
         constructor(mobileMenu, navList, navLinks) {
           this.mobileMenu = document.querySelector(mobileMenu);
@@ -68,8 +73,8 @@ document.addEventListener("DOMContentLoaded", function() {
           this.navLinks.forEach((link, index) => {
             link.style.animation
               ? (link.style.animation = "")
-              : (link.style.animation = `navLinkFade 0.5s ease forwards ${
-                  index / 7 + 0.3
+              : (link.style.animation = `navLinkFade 0.3s ease forwards ${
+                  index / 15 + 0.3
                 }s`);
           });
         }
