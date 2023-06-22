@@ -40,8 +40,8 @@
           <input type="email" placeholder="Email..." name="input" class="input-form-cntt-reved" required>
         </div>
         <div class="coolinput-cntt-reved">
-          <label for="input" class="text-cntt-reved">Telefone:<samp class="asteristico-obrigatorio">*</samp></label>
-          <input type="tel" placeholder="Telefone..." name="input" class="input-form-cntt-reved" required>
+          <label for="telefoneInput" class="text-cntt-reved">Telefone:<samp class="asteristico-obrigatorio">*</samp></label>
+          <input type="tel" placeholder="Telefone..." name="input" class="input-form-cntt-reved" required id="telefoneInput" oninput="formatarTelefone(this)">
         </div>
         <div class="coolinput-cntt-reved">
           <label for="input" class="text-cntt-reved">Endereço completo:<samp class="asteristico-obrigatorio">*</samp></label>
@@ -50,16 +50,16 @@
       </form>
       <form class="form-cntt-reved-esquerda">
         <div class="coolinput-cntt-reved">
-          <label for="input" class="text-cntt-reved">CNPJ ou CPF:<samp class="asteristico-obrigatorio">*</samp></label>
-          <input type="number" placeholder="CNPJ ou CPF..." name="input" class="input-form-cntt-reved" required>
+          <label for="cnpjCpfInput" class="text-cntt-reved">CNPJ ou CPF:<samp class="asteristico-obrigatorio">*</samp></label>
+          <input type="text" placeholder="CNPJ ou CPF..." name="input" class="input-form-cntt-reved" required id="cnpjCpfInput" oninput="formatarCnpjCpf(this)">
         </div>
         <div class="coolinput-cntt-reved">
-          <label for="input" class="text-cntt-reved">Razão social:<samp class="asteristico-obrigatorio">*</samp></label>
-          <input type="text" placeholder="Razão social..." name="input" class="input-form-cntt-reved" required>
+          <label for="input" class="text-cntt-reved">Razão social:</label>
+          <input type="text" placeholder="Razão social..." name="input" class="input-form-cntt-reved">
         </div>
         <div class="coolinput-cntt-reved">
-          <label for="input" class="text-cntt-reved">Nome fantazia:<samp class="asteristico-obrigatorio">*</samp></label>
-          <input type="text" placeholder="Nome fantazia..." name="input" class="input-form-cntt-reved" required>
+          <label for="input" class="text-cntt-reved">Nome fantazia:</label>
+          <input type="text" placeholder="Nome fantazia..." name="input" class="input-form-cntt-reved">
         </div>
         <div class="coolinput-cntt-reved">
           <label for="input" class="text-cntt-reved">Escreva sua menssagem:</label>
