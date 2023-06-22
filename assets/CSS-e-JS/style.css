@@ -28,6 +28,11 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
     -webkit-appearance: none;
 }
 
+.asteristico-obrigatorio{
+    color: red;
+    font-size: 0.75rem;
+}
+
 main{
     width: 100%;
     box-sizing: border-box;
