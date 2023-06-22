@@ -341,7 +341,7 @@ transition: 0.3s;
     grid-auto-flow: row;
     grid-template-areas:
       "formulario-de-contato aside-cards-contatos";
-  }
+}
   
   .formulario-de-contato { grid-area: formulario-de-contato; }
   
