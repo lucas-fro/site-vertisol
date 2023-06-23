@@ -2,7 +2,7 @@
 
 :root{
     --cor-ptincipal: #000066;
-    --cor-subcor: #000082;
+    --cor-subcor: #0000bd;
     --cor-secundaria: #ffff00;
     --cor-branco: #ffffff;
     --cor-preto: #000000;
@@ -261,7 +261,7 @@ transition: 0.3s;
 
 .chamando-para-ser-revendedor>a{
     text-align: center;
-    background-color: var(--cor-ptincipal);
+    background-image: linear-gradient(to top, var(--cor-ptincipal), var(--cor-subcor));
     color: var(--cor-branco);
     text-decoration: none;
     padding: 20px 30px;
@@ -274,7 +274,7 @@ transition: 0.3s;
 }
 
 .chamando-para-ser-revendedor>a:hover{
-    background-image: linear-gradient(to top, #000066, #0000bd);
+    background-image: linear-gradient(to top,var(--cor-subcor), var(--cor-subcor));
     box-shadow: 0 0 50px 10px #48abe0;
     transform: scale(1.05);
 }
