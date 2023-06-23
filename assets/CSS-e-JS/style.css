@@ -240,6 +240,38 @@ transition: 0.3s;
     box-shadow: var(--box-shadow2)
 }
 
+.chamando-para-ser-revendedor{
+    background-color: #dddddd;
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.div-chamando-para-ser-revendedor{
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+
+.div-chamando-para-ser-revendedor>h2{
+    font-size: 2.5rem;
+}
+
+.div-chamando-para-ser-revendedor>p{
+    font-size: 1.3rem;
+}
+
+.chamando-para-ser-revendedor>a{
+    text-align: center;
+    background-color: var(--cor-ptincipal);
+    color: var(--cor-branco);
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin: auto;
+}
+
 .depoimentos-clientes{
     padding: 40px;
 }
@@ -313,7 +345,7 @@ transition: 0.3s;
 
 
 .card-depoimentos>h5{
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 
 .entre-em-contato{
