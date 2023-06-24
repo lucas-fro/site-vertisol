@@ -519,6 +519,15 @@ transition: 0.3s;
     font-size: 2rem;
     text-align: center;
     color: var(--cor-secundaria);
+    margin-bottom: 15px;
+}
+
+.cabecalho-sobre-nos>hr{
+    text-align: center;
+    width: 150px;
+    margin: auto;
+    border: 2px solid var(--cor-branco);
+    margin: auto;
 }
 
 .sec-sobre-nos>img{
@@ -734,6 +743,32 @@ transition: 0.3s;
 }
 
 /*pagina contato para revenda-fim*/
+
+/*pagina produtos-inicio*/
+
+.cabecalho-produtos{
+    background-color: transparent;
+    width: 100%;
+    height: 100px;
+    padding-top: 100px;
+}
+
+.cabecalho-produtos>h2{
+    font-size: 2rem;
+    text-align: center;
+    color: var(--cor-ptincipal);
+    margin-bottom: 15px;
+}
+
+.cabecalho-produtos>hr{
+    text-align: center;
+    width: 150px;
+    margin: auto;
+    border: 2px solid var(--cor-secundaria);
+    margin: auto;
+}
+
+/*pagina produtos-fim*/
 
 
 footer{
