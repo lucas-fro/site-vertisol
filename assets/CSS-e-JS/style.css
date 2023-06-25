@@ -512,14 +512,14 @@ transition: 0.3s;
     background-color: var(--cor-subcor);
     width: 100%;
     height: 80px;
-    padding-top: 90px;
+    padding-top: 80px;
     text-align: center;
 }
 
 .cabecalho-sobre-nos>h2{
     font-size: 2rem;
     color: var(--cor-secundaria);
-    margin-bottom: 10px;
+    margin: 10px 0px;
 }
 
 .cabecalho-sobre-nos>hr{
@@ -748,14 +748,14 @@ transition: 0.3s;
     background-color: transparent;
     width: 100%;
     height: 80px;
-    padding-top: 90px;
+    padding-top: 80px;
     text-align: center;
 }
 
 .cabecalho-produtos>h2{
     font-size: 2rem;
     color: var(--cor-ptincipal);
-    margin-bottom: 10px;
+    margin: 10px 0px;
 }
 
 .cabecalho-produtos>hr{
@@ -970,6 +970,10 @@ footer{
     .bi-envelope-at, .bi-telephone, .bi-geo-alt{
         font-size: 2.5rem;
         margin: 0px 0px 20px;
+    }
+
+    .cabecalho-sobre-nos, .cabecalho-produtos{
+        padding-top: 90px;
     }
 
     .sec-sobre-nos {  
