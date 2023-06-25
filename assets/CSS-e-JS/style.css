@@ -511,23 +511,21 @@ transition: 0.3s;
 .cabecalho-sobre-nos{
     background-color: var(--cor-subcor);
     width: 100%;
-    height: 100px;
-    padding-top: 100px;
+    height: 80px;
+    padding-top: 90px;
+    text-align: center;
 }
 
 .cabecalho-sobre-nos>h2{
     font-size: 2rem;
-    text-align: center;
     color: var(--cor-secundaria);
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .cabecalho-sobre-nos>hr{
-    text-align: center;
     width: 150px;
     margin: auto;
     border: 2px solid var(--cor-branco);
-    margin: auto;
 }
 
 .sec-sobre-nos>img{
@@ -749,23 +747,21 @@ transition: 0.3s;
 .cabecalho-produtos{
     background-color: transparent;
     width: 100%;
-    height: 100px;
-    padding-top: 100px;
+    height: 80px;
+    padding-top: 90px;
+    text-align: center;
 }
 
 .cabecalho-produtos>h2{
     font-size: 2rem;
-    text-align: center;
     color: var(--cor-ptincipal);
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .cabecalho-produtos>hr{
-    text-align: center;
     width: 150px;
     margin: auto;
     border: 2px solid var(--cor-secundaria);
-    margin: auto;
 }
 
 .materiais-produtos{
@@ -808,7 +804,7 @@ transition: 0.3s;
 
 .btn-vermais-produtos{
     width: 150px;
-    margin: auto;;
+    margin: 0px auto 40px;
     background-color: var(--cor-subcor);
     border-radius: 99px;
     color: var(--cor-branco);
@@ -937,6 +933,10 @@ footer{
       .input-textarea-form-contato{
         min-height: 100px;
     }
+
+    .div-card-materiais-produto>p{
+        min-height: 320px;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -991,6 +991,10 @@ footer{
 
     .materiais-produtos{
         flex-direction: column;
+    }
+
+    .div-card-materiais-produto>p{
+        min-height: auto;
     }
     
     #main-bg-cntt-reved{
