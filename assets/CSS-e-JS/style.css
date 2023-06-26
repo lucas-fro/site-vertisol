@@ -586,10 +586,6 @@ transition: 0.3s;
   
   .texts-hist-empresa { grid-area: texts-hist-empresa; }
   
-  
-  
-  
-
 /*pagina sobre nós-fim*/
 
 /*pagina produtos-inicio*/
@@ -618,7 +614,7 @@ transition: 0.3s;
     box-sizing: border-box; 
     margin-bottom: 100px;
     box-sizing: border-box;
-    padding: 0px 20px;
+    padding: 0px 40px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
