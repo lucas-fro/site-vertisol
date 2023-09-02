@@ -882,17 +882,30 @@ transition: 0.3s;
       "foto4galeria foto5galeria foto6galeria";
   }
   
-  .foto1galeria { grid-area: foto1galeria; }
+  .foto1galeria { 
+    grid-area: foto1galeria; 
+
+    }
   
-  .foto2galeria { grid-area: foto2galeria; }
+  .foto2galeria { 
+    grid-area: foto2galeria; 
+    }
   
-  .foto3galeria { grid-area: foto3galeria; }
+  .foto3galeria { 
+    grid-area: foto3galeria; 
+    }
   
-  .foto4galeria { grid-area: foto4galeria; }
+  .foto4galeria { 
+    grid-area: foto4galeria; 
+    }
   
-  .foto5galeria { grid-area: foto5galeria; }
+  .foto5galeria { 
+    grid-area: foto5galeria; 
+    }
   
-  .foto6galeria { grid-area: foto6galeria; }
+  .foto6galeria { 
+    grid-area: foto6galeria; 
+    }
   
 
 
