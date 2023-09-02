@@ -844,20 +844,14 @@ transition: 0.3s;
 
 /*pagina de informações dos produtos-inicio*/
 
-.testefoto{
-    background-color: green;
-    width: 50px;
-    height: 50px;
-    margin: 2px;
-}
-
 .fotosGaleria{
-    width: 500px;
+    width: 100%;
     height: 250px;
-    background-color: green;
+    background-color: transparent;
     transition: all .3s ease;
     cursor: pointer;
     border-radius: 5px;
+    box-shadow: var(--box-shadow1)
 }
 
 .fotosGaleria:hover{
@@ -885,22 +879,42 @@ transition: 0.3s;
   .foto1galeria { 
     grid-area: foto1galeria; 
 
+    background-image: url(../../imagens.vt/fotosParaVertisol/rolo/rolo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     }
   
   .foto2galeria { 
-    grid-area: foto2galeria; 
+    grid-area: foto2galeria;
+    background-image: url(../../imagens.vt/fotosParaVertisol/rolo/rolo2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
     }
   
   .foto3galeria { 
-    grid-area: foto3galeria; 
+    grid-area: foto3galeria;
+    background-image: url(../../imagens.vt/fotosParaVertisol/rolo/rolo3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
     }
   
   .foto4galeria { 
-    grid-area: foto4galeria; 
+    grid-area: foto4galeria;
+    background-image: url(../../imagens.vt/fotosParaVertisol/rolo/rolo4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
     }
   
   .foto5galeria { 
-    grid-area: foto5galeria; 
+    grid-area: foto5galeria;
+    background-image: url(../../imagens.vt/fotosParaVertisol/rolo/rolo5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
     }
   
   .foto6galeria { 
