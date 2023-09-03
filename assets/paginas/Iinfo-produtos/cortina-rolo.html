@@ -29,22 +29,22 @@
     <main>
         <section class="galeria">
             <div class="foto1galeria fotosGaleria">
-                <img class="imgGaleria" src="../../../imagens.vt/fotosParaVertisol/rolo/rolo1.png" alt="">
+                <img class="imgGaleria" src="../../../imagens.vt/fotosParaVertisol/rolo/rolo1.png" alt=""  onclick="openModal('../../../imagens.vt/fotosParaVertisol/rolo/rolo1.png')">
             </div>
             <div class="foto2galeria fotosGaleria">
-                <img class="imgGaleria" src="../../../imagens.vt/fotosParaVertisol/rolo/rolo2.jpeg" alt="">
+                <img class="imgGaleria" src="../../../imagens.vt/fotosParaVertisol/rolo/rolo2.jpeg" alt="" onclick="openModal('../../../imagens.vt/fotosParaVertisol/rolo/rolo2.jpeg')">
             </div>
             <div class="foto3galeria fotosGaleria">
-                <img class="imgGaleria" src="../../../imagens.vt/fotosParaVertisol/rolo/rolo3.jpg" alt="">
+                <img class="imgGaleria" src="../../../imagens.vt/fotosParaVertisol/rolo/rolo3.jpg" alt="" onclick="openModal('../../../imagens.vt/fotosParaVertisol/rolo/rolo3.jpg')">
             </div>
             <div class="foto4galeria fotosGaleria">
-                <img class="imgGaleria" src="../../../imagens.vt/fotosParaVertisol/rolo/rolo4.jpg" alt="">
+                <img class="imgGaleria" src="../../../imagens.vt/fotosParaVertisol/rolo/rolo4.jpg" alt="" onclick="openModal('../../../imagens.vt/fotosParaVertisol/rolo/rolo4.jpg')">
             </div>
             <div class="foto5galeria fotosGaleria">
-                <img class="imgGaleria" src="" alt="">
+                
             </div>
             <div class="foto6galeria fotosGaleria">
-                <img class="imgGaleria" src="" alt="">
+                
             </div>
         </section>
         <section class="infoProdutos">
@@ -70,6 +70,12 @@
             © 2023 - Todos os direitos reservados para M & R - Inf.
         </p>
         </section>
+
+        <div id="myModal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img class="modal-content" id="modalImage">
+        </div>
+
     </footer>
     <div class="btn-zap">
         <a id="robbu-whatsapp-button" target="_blank" href="https://api.whatsapp.com/send?phone=5511962559604&text=Ol%C3%A1,%20gostaria%20de%20fazer%20um%20pedido">
@@ -77,6 +83,8 @@
         <img src="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-icon.svg">
         </a>
     </div>
+
+    <script src="../../CSS-e-JS/galeria.js"></script>
     <script src="../../CSS-e-JS/script-geral.js"></script>
 </body>
 </html>
