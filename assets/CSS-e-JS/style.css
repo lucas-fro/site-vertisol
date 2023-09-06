@@ -654,6 +654,7 @@ transition: 0.3s;
   .card-produto:hover{
     background-color: var(--cor-branco);
     border-radius: 10px;
+    box-shadow: var(--box-shadow1);
   }
   
   .card-produto>h3{
