@@ -983,6 +983,27 @@ transition: 0.3s;
     border: 2px dotted var(--cor-subcor);
 }
 
+.btnVoltarProdutos{
+    position: fixed;
+    z-index: 3;
+    background-color: #ca1414;
+    text-decoration: none;
+    padding: 5px;
+    cursor: pointer;
+    top: 29px;
+    right: 10px;
+    border-radius: 10px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnVoltarProdutos>i {
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
 /*pagina de informações dos produtos-fim*/
 
 footer{
