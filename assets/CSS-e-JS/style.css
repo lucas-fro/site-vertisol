@@ -976,6 +976,13 @@ transition: 0.3s;
     cursor: pointer;
 }
 
+.divisoria{
+    margin: auto;
+    width: 100%;
+    max-width: 800px;
+    border: 2px dotted var(--cor-subcor);
+}
+
 /*pagina de informações dos produtos-fim*/
 
 footer{
