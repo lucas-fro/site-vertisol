@@ -649,6 +649,7 @@ transition: 0.3s;
     text-align: center;
     box-sizing: border-box;
     padding: 10px 5px;
+    transition: all ease .3s;
   }
 
   .card-produto:hover{
