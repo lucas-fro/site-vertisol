@@ -30,46 +30,46 @@
   </header>
   <main id="main-bg-cntt-reved">
     <div class="card-cntt-reved">
-      <h3 class="h3-form-cntt-reved">Seja um dos nossos revendedores!</h3>
-      <p class="p-cntt-reved1">Preencha o formulário para se cadastrar.</p>
-      <form class="form-cntt-reved-direita">
-        <div class="coolinput-cntt-reved">
-          <label for="input" class="text-cntt-reved">Nome:<samp class="asteristico-obrigatorio">*</samp></label>
-          <input type="text" placeholder="Nome..." name="input" class="input-form-cntt-reved" required>
+      <div class="titulo-aviso">
+        <h3 class="h3-form-cntt-reved">Seja um dos nossos revendedores!</h3>
+        <p class="p-cntt-reved1">Preencha o formulário para se cadastrar.</p>
+      </div>
+      <form class="form-cntt-reved">
+        <div class="coolinput-cntt-reved i-nome">
+          <label for="nomeInput" class="text-cntt-reved">Nome:<samp class="asteristico-obrigatorio">*</samp></label>
+          <input type="text" placeholder="Nome..." name="input" class="input-form-cntt-reved" required id="nomeInput">
         </div>
-        <div class="coolinput-cntt-reved">
-          <label for="input" class="text-cntt-reved">Email:<samp class="asteristico-obrigatorio">*</samp></label>
-          <input type="email" placeholder="Email..." name="input" class="input-form-cntt-reved" required>
+        <div class="coolinput-cntt-reved i-email">
+          <label for="emailInput" class="text-cntt-reved">Email:<samp class="asteristico-obrigatorio">*</samp></label>
+          <input type="email" placeholder="Email..." name="input" class="input-form-cntt-reved" required id="emailInput">
         </div>
-        <div class="coolinput-cntt-reved">
+        <div class="coolinput-cntt-reved i-telefone">
           <label for="telefoneInput" class="text-cntt-reved">Telefone:<samp class="asteristico-obrigatorio">*</samp></label>
           <input type="tel" placeholder="Telefone..." name="input" class="input-form-cntt-reved" required id="telefoneInput" oninput="formatarTelefone(this)">
         </div>
-        <div class="coolinput-cntt-reved">
-          <label for="input" class="text-cntt-reved">Endereço completo:<samp class="asteristico-obrigatorio">*</samp></label>
-          <input type="text" placeholder="Endereço completo..." name="input" class="input-form-cntt-reved" required>
+        <div class="coolinput-cntt-reved i-endereco">
+          <label for="enderecoInput" class="text-cntt-reved">Endereço completo:<samp class="asteristico-obrigatorio">*</samp></label>
+          <input type="text" placeholder="Endereço completo..." name="input" class="input-form-cntt-reved" required id="enderecoInput">
         </div>
-      </form>
-      <form class="form-cntt-reved-esquerda">
-        <div class="coolinput-cntt-reved">
+        
+        <div class="coolinput-cntt-reved i-cpf">
           <label for="cnpjCpfInput" class="text-cntt-reved">CNPJ ou CPF:<samp class="asteristico-obrigatorio">*</samp></label>
           <input type="text" placeholder="CNPJ ou CPF..." name="input" class="input-form-cntt-reved" required id="cnpjCpfInput" oninput="formatarCnpjCpf(this)">
         </div>
-        <div class="coolinput-cntt-reved">
-          <label for="input" class="text-cntt-reved">Razão social:</label>
-          <input type="text" placeholder="Razão social..." name="input" class="input-form-cntt-reved">
+        <div class="coolinput-cntt-reved i-razao">
+          <label for="razaoInput" class="text-cntt-reved">Razão social:</label>
+          <input type="text" placeholder="Razão social..." name="input" class="input-form-cntt-reved" id="razaoInput">
         </div>
-        <div class="coolinput-cntt-reved">
-          <label for="input" class="text-cntt-reved">Nome fantasia:</label>
-          <input type="text" placeholder="Nome fantasia..." name="input" class="input-form-cntt-reved">
+        <div class="coolinput-cntt-reved i-fantasia">
+          <label for="nomeFantasiaInput" class="text-cntt-reved">Nome fantasia:</label>
+          <input type="text" placeholder="Nome fantasia..." name="input" class="input-form-cntt-reved" id="nomeFantasiaInput">
         </div>
-        <div class="coolinput-cntt-reved">
-          <label for="input" class="text-cntt-reved">Escreva sua menssagem:</label>
-          <textarea name="textarea" id="input-textarea-form-contato" class="input-textarea-form-cntt-reved" placeholder="escreva aqui..."></textarea>
+        <div class="coolinput-cntt-reved i-menssagem">
+          <label for="input-textarea-form-contato-reved" class="text-cntt-reved">Escreva sua menssagem:</label>
+          <textarea name="textarea" id="input-textarea-form-contato-reved" class="input-textarea-form-cntt-reved" placeholder="escreva aqui..."></textarea>
         </div>
+        <button class="btn-form-cntt-reved" type="submit">Enviar</button>
       </form>
-      <p id="chamada-de-atencao" class="p-cntt-reved2">Certifique-se de que todos os dados estejão corretos! </p>
-      <button class="btn-form-cntt-reved" type="submit">Enviar</button>
     </div>
   </main>
   <footer>

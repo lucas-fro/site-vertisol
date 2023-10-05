@@ -707,6 +707,7 @@ transition: 0.3s;
 #main-bg-cntt-reved{
     background-color: var(--cor-subcor);
     min-height: 93.7vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -727,33 +728,18 @@ transition: 0.3s;
     backdrop-filter: blur( 5px );
     margin: 40px 10px;
     
-    display: grid; 
-    grid-auto-rows: 1fr; 
-    grid-template-columns: 1fr 1fr; 
-    grid-template-rows: repeat(5, auto); 
-    gap: 10px 10px; 
-    grid-template-areas: 
-      "h3-form-cntt-reved h3-form-cntt-reved"
-      "p-cntt-reved1 p-cntt-reved1"
-      "form-cntt-reved-direita form-cntt-reved-esquerda"
-      "p-cntt-reved2 p-cntt-reved2"
-      "btn-form-cntt-reved btn-form-cntt-reved"; 
-  }
-  .h3-form-cntt-reved { grid-area: h3-form-cntt-reved; }
-  .p-cntt-reved1 { grid-area: p-cntt-reved1; }
-  .form-cntt-reved-direita { grid-area: form-cntt-reved-direita; }
-  .form-cntt-reved-esquerda { grid-area: form-cntt-reved-esquerda; }
-  .p-cntt-reved2 { grid-area: p-cntt-reved2; }
-  .btn-form-cntt-reved { grid-area: btn-form-cntt-reved; }
+   display: flex;
+   flex-direction: column;
+}
 
-.card-cntt-reved>h3{
+.card-cntt-reved h3{
     font-size: 3rem;
     font-weight: 600;
     text-align: center;
     
 }
 
-.card-cntt-reved>p{
+.card-cntt-reved p{
     text-align: center;
     font-size: 1.5rem;
     font-weight: 300;
@@ -765,14 +751,30 @@ transition: 0.3s;
 
 
 
-.form-cntt-reved-direita, .form-cntt-reved-esquerda{
+.form-cntt-reved{
     width: 100%;
     min-width: 320px;
-    height: 300px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+    gap: 15px 15px; 
+    grid-template-areas: 
+      "i-nome i-cpf"
+      "i-email i-razao"
+      "i-telefone i-fantasia"
+      "i-endereco i-menssagem"
+      "btn-form-cntt-reved btn-form-cntt-reved"; 
 }
+.i-nome { grid-area: i-nome; }
+.i-cpf { grid-area: i-cpf; }
+.btn-form-cntt-reved { grid-area: btn-form-cntt-reved; }
+.i-email { grid-area: i-email; }
+.i-razao { grid-area: i-razao; }
+.i-telefone { grid-area: i-telefone; }
+.i-fantasia { grid-area: i-fantasia; }
+.i-endereco { grid-area: i-endereco; }
+.i-menssagem { grid-area: i-menssagem; }
 
 .coolinput-cntt-reved{
     display: flex;
@@ -828,10 +830,15 @@ transition: 0.3s;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.btn-form-cntt-reved{
+.chamada-btn{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-form-cntt-reved {
     background-color: #405cf5;
     border-radius: 6px;
-    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .1) 0 2px 5px 0, rgba(0, 0, 0, .07) 0 1px 1px 0;
     box-sizing: border-box;
     color: #fff;
     cursor: pointer;
@@ -840,10 +847,11 @@ transition: 0.3s;
     outline: none;
     text-align: center;
     width: 100%;
-    max-width: 500px;
+    max-width: 800px; /* Você pode ajustar esse valor conforme necessário */
     border: none;
-    margin: auto;
-}
+    margin: 5px auto 0px; /* Remova a margem superior */
+  }
+  
 
 .btn-form-cntt-reved:hover {
     box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
@@ -1197,19 +1205,25 @@ footer{
         height: fit-content;
     }
 
-    .card-cntt-reved {    
+    .form-cntt-reved{
+        width: 100%;
+        min-width: 320px;
+        display: flex;
         display: grid; 
         grid-template-columns: 1fr; 
-        grid-template-rows: repeat(6, auto); 
-        gap: 10px 10px; 
+        grid-template-rows: repeat(9, 1fr); 
+        gap: 15px; 
         grid-template-areas: 
-          "h3-form-cntt-reved"
-          "p-cntt-reved1"
-          "form-cntt-reved-direita" 
-          "form-cntt-reved-esquerda"
-          "p-cntt-reved2"
+          "i-nome" 
+          "i-cpf"
+          "i-email" 
+          "i-razao"
+          "i-telefone" 
+          "i-fantasia"
+          "i-endereco"
+          "i-menssagem"
           "btn-form-cntt-reved"; 
-      }
+    }
       .form-cntt-reved-esquerda{
         margin-top: 12px;
       }
