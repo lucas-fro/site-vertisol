@@ -1215,12 +1215,12 @@ footer{
         gap: 15px; 
         grid-template-areas: 
           "i-nome" 
-          "i-cpf"
           "i-email" 
-          "i-razao"
-          "i-telefone" 
-          "i-fantasia"
+          "i-telefone"
           "i-endereco"
+          "i-cpf"
+          "i-razao" 
+          "i-fantasia"
           "i-menssagem"
           "btn-form-cntt-reved"; 
     }
