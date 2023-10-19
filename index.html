@@ -99,19 +99,24 @@
             <h3>Saiba onde Comprar!</h3>
             <p>Entre em contato conosco para que possamos indicar a loja licenciada mais próxima de você!</p>
             <div class="form-card-contato-conteiner">
-                <form class="formulario-de-contato">
+                <form class="formulario-de-contato" target="_blank" action="https://formsubmit.co/vertisolpersianas@outlook.com" method="POST">
                     <div class="coolinput">
                         <label for="indexNomeInput" class="text">Nome:<samp class="asteristico-obrigatorio">*</samp></label>
-                        <input type="text" placeholder="Nome..." name="input" class="input-form-contato" required id="indexNomeInput">
+                        <input type="text" placeholder="Nome..." name="NOME" class="input-form-contato" required id="indexNomeInput">
                     </div>
                     <div class="coolinput">
                         <label for="indexEmailInput" class="text">Email:<samp class="asteristico-obrigatorio">*</samp></label>
-                        <input type="email" placeholder="Email..." name="input" class="input-form-contato" required id="indexEmailInput">
+                        <input type="email" placeholder="Email..." name="EMAIL" class="input-form-contato" required id="indexEmailInput">
                     </div>
                     <div class="coolinput">
                         <label for="input-textarea-form-contato" class="text">Escreva sua menssagem:</label>
-                        <textarea name="textarea" id="input-textarea-form-contato" class="input-textarea-form-contato" placeholder="escreva aqui sua mensagem aqui..."></textarea>
+                        <textarea name="MENSSAGEM" id="input-textarea-form-contato" class="input-textarea-form-contato" placeholder="escreva aqui sua mensagem aqui..."></textarea>
                     </div>
+
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_subject" value="quero tirar um aduvida com vocês!">
+                    <input type="hidden" name="_template" value="box">
+
                     <button class="btn-form-contato" type="submit">Enviar</button>
                 </form>
                 <aside class="aside-cards-contatos">
