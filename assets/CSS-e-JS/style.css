@@ -757,13 +757,14 @@ transition: 0.3s;
     display: flex;
     display: grid; 
     grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 15px 15px; 
     grid-template-areas: 
       "i-nome i-cpf"
       "i-email i-razao"
       "i-telefone i-fantasia"
       "i-endereco i-menssagem"
+      "i-cidade i-menssagem"
       "btn-form-cntt-reved btn-form-cntt-reved"; 
 }
 .i-nome { grid-area: i-nome; }
@@ -774,6 +775,7 @@ transition: 0.3s;
 .i-telefone { grid-area: i-telefone; }
 .i-fantasia { grid-area: i-fantasia; }
 .i-endereco { grid-area: i-endereco; }
+.i-cidade { grid-area: i-cidade;}
 .i-menssagem { grid-area: i-menssagem; }
 
 .coolinput-cntt-reved{
@@ -818,9 +820,9 @@ transition: 0.3s;
     background: transparent;
     font-size: 1.09rem;
     resize: vertical;
-    min-height: 20.80px;
-    max-height: 20.80px;
-    outline: none;
+    min-height: 100px;
+    max-height: 100px;
+     outline: none;
     
 }
 
@@ -1211,16 +1213,18 @@ footer{
         display: flex;
         display: grid; 
         grid-template-columns: 1fr; 
-        grid-template-rows: repeat(9, 1fr); 
+        grid-template-rows: repeat(11, 1fr); 
         gap: 15px; 
         grid-template-areas: 
           "i-nome" 
           "i-email" 
           "i-telefone"
           "i-endereco"
+          "i-cidade"
           "i-cpf"
           "i-razao" 
           "i-fantasia"
+          "i-menssagem"
           "i-menssagem"
           "btn-form-cntt-reved"; 
     }
@@ -1240,9 +1244,10 @@ footer{
         font-weight: 300;
     }
     
-     #chamada-de-atencao{
-        font-size: 0.8rem;
-    }
+    .input-textarea-form-cntt-reved{
+        min-height: 100px;
+        max-height: 100px;
+    } 
 
     .galeria { 
         box-sizing: border-box;
