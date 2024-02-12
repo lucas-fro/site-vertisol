@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function() {
     showSlide(currentIndex);
     startTimer();
 
-    /*navbar-mobilemenu */
+    
 
     
 });
