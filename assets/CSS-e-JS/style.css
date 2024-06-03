@@ -1129,6 +1129,44 @@ footer{
 
 }
 
+/* pagina do pedido web com defeito*/
+
+#main-bg-pedidoweb{
+    background-color: var(--cor-subcor);
+    min-height: 93.7vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 71px 0px 0px;
+    background-image: url(../../imagens.vt/fundo-para-conato-de-revenda.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.card-pedidoweb{
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: var(--box-shadow2);
+    background-color: #ffffff;
+    backdrop-filter: blur( 5px );
+    margin: 40px 10px;
+    
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   text-align: center;
+}
+
+.card-pedidoweb > h1{
+    color: red;
+}
+
+/* pagina do pedido web com defeito fim*/
 @media screen and (max-width: 700px) {
     
     .nossos-trabalhos>div>img{
