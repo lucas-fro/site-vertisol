@@ -1131,40 +1131,186 @@ footer{
 
 /* pagina do pedido web com defeito*/
 
-#main-bg-pedidoweb{
+.main-pedidoweb{
+    min-height: 93.6vh;
+}
+
+.cabecalho-pedidoweb{
     background-color: var(--cor-subcor);
-    min-height: 93.7vh;
     width: 100%;
+    height: 80px;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.cabecalho-pedidoweb>h2{
+    font-size: 2rem;
+    color: var(--cor-secundaria);
+    margin: 10px 0px;
+}
+
+.cabecalho-pedidoweb>hr{
+    width: 150px;
+    margin: auto;
+    border: 2px solid var(--cor-branco);
+}
+
+.sec-pedidoweb {
+    display: grid;
+    gap: 10px;
+    padding: 40px;
+    grid-template-columns: 1fr 1fr; /* Define duas colunas iguais */
+    align-items: center;
+}
+
+.texts-pedidoweb {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 71px 0px 0px;
-    background-image: url(../../imagens.vt/fundo-para-conato-de-revenda.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
 }
 
-.card-pedidoweb{
-    width: 100%;
-    max-width: 1000px;
+.sec-pedidoweb > img {
+    max-width: 80%;
+    margin: auto;
     border-radius: 20px;
-    padding: 10px;
-    box-shadow: var(--box-shadow2);
-    background-color: #ffffff;
-    backdrop-filter: blur( 5px );
-    margin: 40px 10px;
-    
-   display: flex;
-   flex-direction: column;
-   gap: 20px;
-   text-align: center;
+    box-shadow: var(--box-shadow1);
 }
 
-.card-pedidoweb > h1{
-    color: red;
+.sec-pedidoweb > div > h3 {
+    color: var(--cor-ptincipal);
+    font-size: 2rem;
+    text-align: center;
 }
+
+.sec-pedidoweb > div > hr {
+    width: 200px;
+    margin: 20px auto;
+    border: 2px solid var(--cor-secundaria);
+}
+
+.texts-pedidoweb > p {
+    text-align: center;
+    text-indent: 1.5rem;
+    line-height: 2rem;
+    max-width: 1000px;
+}
+
+.btn-pedidoweb {
+    border: 5px var(--cor-ptincipal) solid;
+    padding: 20px;
+    border-radius: 10px;
+    color: var(--cor-ptincipal);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .2s ease;
+    margin: 0px 20px;
+}
+
+.btn-pedidoweb:hover {
+    background-color: var(--cor-ptincipal);
+    color: var(--cor-branco);
+    margin: 0px 5px;
+}
+
+.setas-btn-pedidoweb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 40px;
+}
+
+.setas-btn-pedidoweb > i {
+    font-size: 2.5rem;
+    color: var(--cor-ptincipal);
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+    .sec-pedidoweb {
+        grid-template-columns: 1fr; /* Define uma coluna */
+        text-align: center;
+    }
+
+    .sec-pedidoweb > img {
+        margin-top: 20px;
+    }
+}
+
+
+/* .sec-pedidoweb {  
+    padding: 40px;
+    display: flex;
+    gap: 10px;
+    height: 100%;
+}
+
+.texts-pedidoweb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+
+}
+
+.sec-pedidoweb > img {
+    max-width: 50%;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: var(--box-shadow1);
+}
+
+.sec-pedidoweb > div > h3 {
+    color: var(--cor-ptincipal);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.sec-pedidoweb > div > hr {
+    width: 200px;
+    margin: 20px auto;
+    border: 2px solid var(--cor-secundaria);
+}
+
+.texts-pedidoweb > p {
+    text-align: justify;
+    text-indent: 1.5rem;
+    line-height: 2rem;
+    max-width: 1000px;
+}
+
+.btn-pedidoweb{
+    border: 3px var(--cor-ptincipal) solid;
+    padding: 20px;
+    border-radius: 10px;
+    color: var(--cor-ptincipal);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .2s ease;
+    margin: 0px 20px;
+}
+
+.btn-pedidoweb:hover{
+    background-color: var(--cor-ptincipal);
+    color: var(--cor-branco);
+    margin: 0px 5px;
+}
+
+.setas-btn-pedidoweb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.setas-btn-pedidoweb > i{
+    font-size: 2.5rem;
+    color: var(--cor-ptincipal);
+} */
+
 
 /* pagina do pedido web com defeito fim*/
 @media screen and (max-width: 700px) {
